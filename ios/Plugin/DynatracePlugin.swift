@@ -8,11 +8,4 @@ import Capacitor
 @objc(DynatracePlugin)
 public class DynatracePlugin: CAPPlugin {
     private let implementation = Dynatrace()
-
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": implementation.echo(value)
-        ])
-    }
 }

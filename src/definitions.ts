@@ -1,3 +1,2 @@
-export interface DynatracePlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
-}
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
+export interface DynatracePlugin {}

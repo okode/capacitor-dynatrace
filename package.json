@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-dynatrace",
+  "name": "@okode/capacitor-dynatrace",
   "version": "0.0.1",
   "description": "Dynatrace plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
@@ -41,7 +41,8 @@
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "npm version patch -m \"Bumped version %s [ci skip]\" && git push && git push --tags && npm publish --access public"
   },
   "devDependencies": {
     "@capacitor/android": "^5.0.0",

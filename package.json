@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorDynatrace.podspec"
+    "OkodeCapacitorDynatrace.podspec"
   ],
   "author": "Okode",
   "license": "MIT",

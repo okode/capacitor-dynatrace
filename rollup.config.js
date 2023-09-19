@@ -4,7 +4,7 @@ export default {
     {
       file: 'dist/plugin.js',
       format: 'iife',
-      name: 'capacitorDynatrace',
+      name: 'okodeCapacitorDynatrace',
       globals: {
         '@capacitor/core': 'capacitorExports',
       },
